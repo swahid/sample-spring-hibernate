@@ -1,11 +1,10 @@
-# iTrack
-iTrack is issue tracking system. 
+# sample-spring-hibernate
+iTrack is only structure sample project.
 
-This system used for personal create and monitor personal issue which create in development a project.
-now start from scratch want plan to made open source issutracking system.
-always welcome to contribute our System.
-
-
+This is sample project Spring MVC Spring security and  Hibernate for mysql connectivity.
+anyone who want to build project with spring mvc annotation with spring seciruty and hibernate
+use this sample change your own style.
+	
 #Use Tools:
   1. Spring web 4.0.2 Realese
   2. Spring Security 4.0.2 Realese
@@ -15,3 +14,8 @@ always welcome to contribute our System.
   
 #Developer: 
   Saurav Wahid <swahidfx@gmail.com>
+  
+#Note : after run this project make changes db.propersie file hibernate.hnb2ddl.auto property create to update
+otherwise every time database drop and create data will be lost
+
+This is an open source project at javabase inc.
