@@ -17,12 +17,18 @@ $(document).ready(function($) {
 	$("#registerForm").submit(function(event) {
 		
 		event.preventDefault();
-		var data = {}
-		data["username"]   = $("#username").val(),
-		data["password"]   = $("#password").val(),
-		data["email"] 	   = $("#email").val(),
-		url = "registration";
+		var data = {},
+		    role = {},
+		    url = "registration";
 		
+		role["roleid"] = "1";
+		    
+		data["username"]   = $("#username").val();
+		data["password"]   = $("#password").val();
+		data["email"] 	   = $("#email").val();
+		data["role"] 	   = role;
+		
+		console.log(data);
 		var token = $('#csrfToken').val();
 		var header = $('#csrfHeader').val();
 		/*
